@@ -82,7 +82,16 @@ img {
 }
 
 .indent {
-  margin-left: 30px;
+  margin-left: 20px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
 }
 
 @media screen and (max-width: 900px) {
